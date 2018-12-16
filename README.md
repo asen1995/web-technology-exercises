@@ -13,3 +13,6 @@ npm install -g live-server
 and then 
 
 live-server
+
+
+3-то упражениение : body.html,hair.html & skin.html и техните xml's 
