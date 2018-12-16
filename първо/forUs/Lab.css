@@ -139,8 +139,8 @@ footer p{
 }
 
 .one-column{
-    width: 500px;
-    height: 450px;
+    width: 430px;
+    height: 460px;
     padding: 2em auto 2em auto;
     margin: 10px 20px;
 }
@@ -149,9 +149,37 @@ footer p{
     padding: 0.1em;
     height: auto;
     background:url(images/bg02.png) repeat;
-    margin-left: 24%;
+    margin-top: -3%;
+    margin-left: 36%;
+
 }
 
 .one-column-header h1 h3{
     text-align: center;
+
+}
+
+.form-table{
+    align-content: center;
+    height: 300px;
+    width: 420px;
+    margin-left: -65%;
+    margin-top: 33%;
+
+}
+.button-submit{
+    align-content: center;
+}
+.form-table tr td{
+    column-width: 210px;
+}
+
+input{
+    width: 210px;
+}
+select{
+    width: 212px;
+}
+textarea{
+    width: 420px;
 }
