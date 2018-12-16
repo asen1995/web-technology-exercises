@@ -145,5 +145,13 @@ footer p{
     margin: 10px 20px;
 }
 .one-column-header{
+    /*margin:0px;*/
+    padding: 0.1em;
+    height: auto;
+    background:url(images/bg02.png) repeat;
+    margin-left: 24%;
+}
 
+.one-column-header h1 h3{
+    text-align: center;
 }
