@@ -14,7 +14,6 @@ xhttp.onreadystatechange = function () {
 xhttp.open("GET", url, true);
 xhttp.send();
 function displayXML(xml) {
-    alert("sd");
     var xmlDoc = xml.responseXML;
     var src = xmlDoc.getElementsByTagName("src");
     var onclick = xmlDoc.getElementsByTagName("onclick");
@@ -31,4 +30,21 @@ function displayXML(xml) {
         item.setAttribute("alt", altValue);
         articles.appendChild(item);
     }
+}
+
+
+
+var modal = document.getElementById("modal01");
+function onClick(element) {
+    debugger;
+    var product = document.getElementById("img01");
+    product.src = element.src;
+    modal.style.display = "block";
+    document.getElementById("caption").innerHTML = element.alt;
+    document.getElementById("galleries").style.display = "none";
+    debugger;
+}
+function onClose(element) {
+    modal.style.display = "none";
+    document.getElementById("galleries").style.display = "block";
 }
