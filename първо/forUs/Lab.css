@@ -156,9 +156,10 @@ footer p{
 
 .one-column-header h1 h3{
     text-align: center;
-
 }
-
+h1{
+    text-align: center;
+}
 .form-table{
     align-content: center;
     height: 300px;
@@ -182,4 +183,22 @@ select{
 }
 textarea{
     width: 420px;
+}
+
+/*body.html*/
+.body{
+  display: flex;
+    align-items: center;
+   justify-content: center;
+    border-bottom: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+article.gallery{
+    padding: 50px;
+    color:red;
+}
+article.gallery img{
+    width: 15%;
+    margin: 5px;
 }
